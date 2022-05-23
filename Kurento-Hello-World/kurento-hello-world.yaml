@@ -42,7 +42,7 @@ spec:
     app: kms-hello-world
   type: ClusterIP
 ---
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1
 kind: Ingress
 metadata:
     name: hello-world-ingress
